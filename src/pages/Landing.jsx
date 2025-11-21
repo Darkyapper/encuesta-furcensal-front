@@ -12,7 +12,7 @@ export default function Landing() {
       {/* HERO SECTION */}
       <section className="flex flex-col items-center text-center px-8 pt-24 pb-16 bg-gradient-to-b from-[#4B9CEB12] to-transparent">
         <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{ fontFamily: "var(--font-title)" }}>
-          Bienvenido a
+          Bienvenido a la
         </h1>
         <img src={mainLogo} alt="Encuesta FurCensal" className="md:h-[8rem] md:mt-2" />
 
@@ -20,6 +20,7 @@ export default function Landing() {
           Un proyecto seguro y transparente para conocer la realidad demográfica de la comunidad furry en México.
           Tus datos están protegidos y ayudan a fortalecer eventos, asociaciones y esfuerzos comunitarios.
         </p>
+        <h2 className="text-2xl font-bold mt-6" style={{ fontFamily: "var(--font-title)" }}>¡Cada furro cuenta!</h2>
 
         <div className="flex gap-4 mt-8">
 
@@ -49,13 +50,13 @@ export default function Landing() {
 
       {/* ABOUT SECTION */}
       <section id="about" className="px-8 py-20 max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-4" style={{ fontFamily: "var(--font-title)" }}>¿Qué es FurCensal?</h2>
+        <h2 className="text-3xl font-bold mb-4" style={{ fontFamily: "var(--font-title)" }}>¿Qué es la Encuesta FurCensal?</h2>
 
         <p className="text-gray-700 text-lg leading-relaxed" style={{ fontFamily: "var(--font-body)" }}>
-          FurCensal es una iniciativa sin fines de lucro dedicada a recopilar
-          información demográfica y social sobre la comunidad furry en México.
-          Nuestro objetivo es ofrecer datos reales, verificados y útiles para
-          apoyar a convenciones, investigadores, creadores y miembros de la comunidad.
+          La Encuesta FurCensal (o EFC) es una iniciativa de furros para furros sin fines de lucro dedicada a recopilar
+          información demográfica y social sobre los miembros de la comunidad furry.
+          Nuestro objetivo es ofrecer datos estadísticos reales, verificados y útiles para
+          apoyar a organizadores de convenciones, investigadores, creadores y miembros de la comunidad.
         </p>
       </section>
 
