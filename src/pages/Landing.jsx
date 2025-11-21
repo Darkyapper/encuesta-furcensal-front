@@ -14,7 +14,7 @@ export default function Landing() {
         <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{ fontFamily: "var(--font-title)" }}>
           Bienvenido a
         </h1>
-        <img src={mainLogo} alt="Encuesta FurCensal" className="md:h-[8rem] md:mt-2"/>
+        <img src={mainLogo} alt="Encuesta FurCensal" className="md:h-[8rem] md:mt-2" />
 
         <p className="text-lg md:text-xl md:mt-10 text-gray-700 max-w-2xl" style={{ fontFamily: "var(--font-body)" }}>
           Un proyecto seguro y transparente para conocer la realidad demográfica de la comunidad furry en México.
@@ -22,13 +22,13 @@ export default function Landing() {
         </p>
 
         <div className="flex gap-4 mt-8">
-          
+
           <a
             href="/encuesta"
-            className="px-6 py-3 rounded-lg text-white font-medium"
+            className="px-6 py-3 bg-[var(--primary-color)] duration-300 ease-in-out md:rounded-4xl text-[var(--white-color)] font-medium hover:bg-[var(--primary-color-sel)]"
             style={{
-              backgroundColor: "#4B9CEB",
-              fontFamily: "var(--font-body)"
+              fontFamily: "var(--font-title)",
+              fontWeight: "bold",
             }}
           >
             Participar en la encuesta
@@ -36,8 +36,11 @@ export default function Landing() {
 
           <a
             href="#about"
-            className="px-6 py-3 border rounded-lg text-gray-700 hover:bg-gray-100 font-medium"
-            style={{ fontFamily: "var(--font-body)" }}
+            className="px-6 py-3 border md:rounded-4xl duration-300 text-[var(--primary-color-dont)] hover:bg-[var(--primary-color-dont)] hover:text-[var(--white-color)] font-medium"
+            style={{
+              fontFamily: "var(--font-title)",
+              fontWeight: "bold",
+            }}
           >
             Saber más
           </a>

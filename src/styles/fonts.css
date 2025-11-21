@@ -1,5 +1,20 @@
 :root {
   --font-title: 'Inter', sans-serif;
   --font-body: 'Quicksand', sans-serif;
+
+  --white-color: #F0F5F6;
+  --black-color: #171717;
+
+  --primary-color: #4B9CEB;
+  --secondary-color: #5CEACC;
+  --complementary-color: #EB9A4B;
+
+  --primary-color-sel: #90C2F3;
+  --secondary-color-sel: #A0F3E1;
+  --complementary-color-sel: #F0B479;
+
+  --primary-color-dont: #0F4F8D;
+  --secondary-color-dont: #13997D;
+  --complementary-color-dont: #A45B12;
 }
 
