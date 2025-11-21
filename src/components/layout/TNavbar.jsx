@@ -1,4 +1,5 @@
 import logoSm from '../../assets/illustrations/logo-sm.png';
+import { IoIosMenu } from "react-icons/io";
 
 export default function Navbar() {
   return (
@@ -18,13 +19,16 @@ export default function Navbar() {
           Objetivo
         </a>
         <a href="#join" className="text-gray-700 hover:text-black" style={{ fontFamily: "var(--font-body)" }}>
+          Datos
+        </a>
+        <a href="#join" className="text-gray-700 hover:text-black" style={{ fontFamily: "var(--font-body)" }}>
           Participar
         </a>
       </div>
 
-      <md-icon-button class="md:hidden">
-        <span slot="icon">menu</span>
-      </md-icon-button>
+      <button className="md:hidden text-2xl text-gray-700 hover:text-black">
+        <IoIosMenu />
+      </button>
     </nav>
   );
 }

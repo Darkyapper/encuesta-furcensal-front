@@ -11,22 +11,22 @@ export default function Landing() {
 
       {/* HERO SECTION */}
       <section className="flex flex-col items-center text-center px-8 pt-24 pb-16 bg-gradient-to-b from-[#4B9CEB12] to-transparent">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{ fontFamily: "var(--font-title)" }}>
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 md:mb-4 text-lgs" style={{ fontFamily: "var(--font-title)" }}>
           Bienvenido a la
         </h1>
         <img src={mainLogo} alt="Encuesta FurCensal" className="md:h-[8rem] md:mt-2" />
 
-        <p className="text-lg md:text-xl md:mt-10 text-gray-700 max-w-2xl" style={{ fontFamily: "var(--font-body)" }}>
+        <p className="text-lg md:text-xl mt-5 md:mt-10 text-gray-700 max-w-2xl" style={{ fontFamily: "var(--font-body)" }}>
           Un proyecto seguro y transparente para conocer la realidad demográfica de la comunidad furry en México.
           Tus datos están protegidos y ayudan a fortalecer eventos, asociaciones y esfuerzos comunitarios.
         </p>
-        <h2 className="text-2xl font-bold mt-6" style={{ fontFamily: "var(--font-title)" }}>¡Cada furro cuenta!</h2>
+        <h2 className="text-2xl font-bold mt-6" style={{ fontFamily: "var(--font-title)" }}>¡Cada Furro Cuenta!</h2>
 
-        <div className="flex gap-4 mt-8">
+        <div className="flex gap-4 mt-8 md:mt-12 flex-wrap justify-center">
 
           <a
             href="/encuesta"
-            className="px-6 py-3 bg-[var(--primary-color)] duration-300 ease-in-out md:rounded-4xl text-[var(--white-color)] font-medium hover:bg-[var(--primary-color-sel)]"
+            className="px-6 py-3 bg-[var(--primary-color)] duration-300 ease-in-out rounded-4xl text-[var(--white-color)] font-medium hover:bg-[var(--primary-color-sel)]"
             style={{
               fontFamily: "var(--font-title)",
               fontWeight: "bold",
@@ -37,7 +37,7 @@ export default function Landing() {
 
           <a
             href="#about"
-            className="px-6 py-3 border md:rounded-4xl duration-300 text-[var(--primary-color-dont)] hover:bg-[var(--primary-color-dont)] hover:text-[var(--white-color)] font-medium"
+            className="px-6 py-3 border rounded-4xl duration-300 text-[var(--primary-color-dont)] hover:bg-[var(--primary-color-dont)] hover:text-[var(--white-color)] font-medium"
             style={{
               fontFamily: "var(--font-title)",
               fontWeight: "bold",
