@@ -18,10 +18,10 @@ export default function Navbar() {
         <a href="#goals" className="text-gray-700 hover:text-black" style={{ fontFamily: "var(--font-body)" }}>
           Objetivo
         </a>
-        <a href="#join" className="text-gray-700 hover:text-black" style={{ fontFamily: "var(--font-body)" }}>
+        <a href="#data" className="text-gray-700 hover:text-black" style={{ fontFamily: "var(--font-body)" }}>
           Datos
         </a>
-        <a href="#join" className="text-gray-700 hover:text-black" style={{ fontFamily: "var(--font-body)" }}>
+        <a href="/participar" className="text-gray-700 hover:text-black" style={{ fontFamily: "var(--font-body)" }}>
           Participar
         </a>
       </div>

@@ -25,7 +25,7 @@ export default function Landing() {
         <div className="flex gap-4 mt-8 md:mt-12 flex-wrap justify-center">
 
           <a
-            href="/encuesta"
+            href="/participar"
             className="px-6 py-3 bg-[var(--primary-color)] duration-300 ease-in-out rounded-4xl text-[var(--white-color)] font-medium hover:bg-[var(--primary-color-sel)]"
             style={{
               fontFamily: "var(--font-title)",
