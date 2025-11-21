@@ -1,12 +1,13 @@
 import '@material/web/iconbutton/icon-button.js';
+import logoSm from '../../assets/illustrations/logo-sm.png';
 
 export default function Navbar() {
   return (
     <nav className="w-full px-6 py-4 flex items-center justify-between bg-white shadow-sm">
       <div className="flex items-center gap-3">
-        <img src="/logo.svg" alt="FurCensal" className="w-10 h-10" />
-        <h1 className="text-xl font-semibold" style={{ fontFamily: "var(--font-title)" }}>
-          FurCensal México
+        <img src={logoSm} alt="FurCensal" className="w-[1.1rem]" />
+        <h1 className="text-xl font-bold" style={{ fontFamily: "var(--font-title)" }}>
+          FurCensal
         </h1>
       </div>
 

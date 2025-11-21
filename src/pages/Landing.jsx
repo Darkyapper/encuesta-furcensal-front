@@ -1,5 +1,7 @@
 import Navbar from "../components/layout/TNavbar";
 import Footer from "../components/layout/Footer";
+import mainLogo from '../assets/illustrations/logo-name.png';
+
 
 export default function Landing() {
   return (
@@ -10,15 +12,17 @@ export default function Landing() {
       {/* HERO SECTION */}
       <section className="flex flex-col items-center text-center px-8 pt-24 pb-16 bg-gradient-to-b from-[#4B9CEB12] to-transparent">
         <h1 className="text-4xl md:text-5xl font-bold mb-4" style={{ fontFamily: "var(--font-title)" }}>
-          Encuesta FurCensal México
+          Bienvenido a
         </h1>
+        <img src={mainLogo} alt="Encuesta FurCensal" className="md:h-[8rem] md:mt-2"/>
 
-        <p className="text-lg md:text-xl text-gray-700 max-w-2xl" style={{ fontFamily: "var(--font-body)" }}>
+        <p className="text-lg md:text-xl md:mt-10 text-gray-700 max-w-2xl" style={{ fontFamily: "var(--font-body)" }}>
           Un proyecto seguro y transparente para conocer la realidad demográfica de la comunidad furry en México.
           Tus datos están protegidos y ayudan a fortalecer eventos, asociaciones y esfuerzos comunitarios.
         </p>
 
         <div className="flex gap-4 mt-8">
+          
           <a
             href="/encuesta"
             className="px-6 py-3 rounded-lg text-white font-medium"
