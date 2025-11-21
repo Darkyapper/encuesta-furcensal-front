@@ -1,4 +1,3 @@
-import '@material/web/iconbutton/icon-button.js';
 import logoSm from '../../assets/illustrations/logo-sm.png';
 
 export default function Navbar() {
