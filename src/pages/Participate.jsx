@@ -1,6 +1,7 @@
 import Navbar from "../components/layout/TNavbar";
 import Footer from "../components/layout/Footer";
 import mainLogo from '../assets/illustrations/logo-name.png';
+import efcMiniY2025 from '../assets/illustrations/efcy2025-logo-sm.png'
 
 
 export default function Participate() {
@@ -22,18 +23,17 @@ export default function Participate() {
                 <h3 className="md:text-2xl text-xl font-bold mt-4 text-gray-700" style={{ fontFamily: "var(--font-title)" }}>
                     Elije una opción para participar:
                 </h3>
-                <div className="flex gap-4 rounded mt-8 md:mt-12 flex-wrap justify-center ">
-                    <div className="bg-neutral-primary-soft block max-w-sm p-6 rounded-4xl bg-[var(--secondary-color)] rounded-base shadow-xs">
-                        <h5 className="mb-3 text-2xl font-semibold tracking-tight text-heading leading-8" style={{ fontFamily: "var(--font-title)" }}>
-                            Encuesta FurCensal Yucatán 2025
-                        </h5>
-                        <p className="text-body mb-6 font-semibold text-gray-800" style={{ fontFamily: "var(--font-body)" }}>
-                            Here are the biggest technology acquisitions of 2025 so far, in reverse
-                            chronological order.
+                <div className="flex gap-6 rounded mt-8 md:mt-12 flex-wrap justify-center ">
+                    <div className="bg-neutral-primary-soft block max-w-sm p-8 duration-300 ease-in-out hover:scale-105 rounded-4xl bg-[var(--secondary-color)] rounded-base shadow-xs">
+                        <img src={efcMiniY2025} alt="Encuesta FurCensal Yucatán 2025" className="mx-auto md:mb-6 md:w-[20rem]" />
+
+                        <p className="text-body mb-6 font-semibold md:mb-8 text-gray-800" style={{ fontFamily: "var(--font-body)" }}>
+                            Participa en nuestra encuesta piloto en Yucatán antes de arrancar la Encuesta FurCensal México 2026.
+                            Participa y ayuda a mejorar la experiencia para todos.
                         </p>
 
                         <a
-                            href="/participar"
+                            href="/encuesta-yucatan-2025"
                             className="px-6 py-3 bg-[var(--primary-color-dont)] duration-300 ease-in-out rounded-4xl text-[var(--white-color)] font-medium hover:bg-[var(--primary-color)]"
                             style={{
                                 fontFamily: "var(--font-title)",
@@ -44,7 +44,27 @@ export default function Participate() {
                         </a>
                     </div>
 
+                    <div className="bg-neutral-primary-soft block max-w-sm p-8 duration-300 ease-in-out hover:scale-105 rounded-4xl bg-[var(--secondary-color)] rounded-base shadow-xs">
+                        <h5 className="mb-3 text-2xl font-semibold md:mt-4 tracking-tight text-heading leading-8" style={{ fontFamily: "var(--font-title)" }}>
+                            Registra una Convención o Evento
+                        </h5>
 
+                        <p className="text-body mb-6 font-semibold md:mb-8 text-gray-800" style={{ fontFamily: "var(--font-body)" }}>
+                            Registra una convención o evento furry que haga falta en nuestra base de datos.
+                            Esta opción no es un Censo para organizadores, es solo para registrar eventos.
+                        </p>
+
+                        <a
+                            href="/encuesta-yucatan-2025"
+                            className="px-6 py-3 bg-[var(--primary-color-dont)] duration-300 ease-in-out rounded-4xl text-[var(--white-color)] font-medium hover:bg-[var(--primary-color)]"
+                            style={{
+                                fontFamily: "var(--font-title)",
+                                fontWeight: "bold",
+                            }}
+                        >
+                            Haz el registro
+                        </a>
+                    </div>
                 </div>
             </section>
             <Footer />

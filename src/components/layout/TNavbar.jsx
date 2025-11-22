@@ -1,14 +1,14 @@
 import logoSm from '../../assets/illustrations/logo-sm.png';
 import { IoIosMenu } from "react-icons/io";
+import logoSmLong from '../../assets/illustrations/logo-name.png';
 
 export default function Navbar() {
   return (
     <nav className="w-full px-6 py-4 flex items-center justify-between bg-white shadow-sm">
       <div className="flex items-center gap-3">
-        <img src={logoSm} alt="FurCensal" className="w-[1.1rem]" />
-        <h1 className="text-xl font-bold" style={{ fontFamily: "var(--font-title)" }}>
-          FurCensal
-        </h1>
+        <a href="/">
+          <img src={logoSmLong} alt="FurCensal" className="w-[10rem] pd-2 md:pl-6" />
+        </a>
       </div>
 
       <div className="hidden md:flex items-center gap-6">
