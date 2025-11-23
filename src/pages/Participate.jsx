@@ -33,7 +33,7 @@ export default function Participate() {
                         </p>
 
                         <a
-                            href="/encuesta-yucatan-2025"
+                            href="/efc-yucatan-2025"
                             className="px-6 py-3 bg-[var(--primary-color-dont)] duration-300 ease-in-out rounded-4xl text-[var(--white-color)] font-medium hover:bg-[var(--primary-color)]"
                             style={{
                                 fontFamily: "var(--font-title)",
@@ -55,7 +55,7 @@ export default function Participate() {
                         </p>
 
                         <a
-                            href="/encuesta-yucatan-2025"
+                            href="/registrar-evento"
                             className="px-6 py-3 bg-[var(--primary-color-dont)] duration-300 ease-in-out rounded-4xl text-[var(--white-color)] font-medium hover:bg-[var(--primary-color)]"
                             style={{
                                 fontFamily: "var(--font-title)",
