@@ -26,6 +26,19 @@ export default function Navbar() {
         </a>
       </div>
 
+      <div>
+        <a
+          href="/registrar-evento"
+          className="hidden md:inline-block px-4 py-2 bg-[var(--primary-color)] duration-300 ease-in-out rounded-4xl text-[var(--white-color)] font-medium hover:bg-[var(--primary-color-sel)]"
+          style={{
+            fontFamily: "var(--font-body)",
+            fontWeight: "bold",
+          }}
+        >
+          Iniciar Sesión
+        </a>
+      </div>
+
       <button className="md:hidden text-2xl text-gray-700 hover:text-black">
         <IoIosMenu />
       </button>
